@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="First Suite" duration-ms="6443" started-at="2020-10-30T17:49:49Z" finished-at="2020-10-30T17:49:55Z">
+    <groups>
+    </groups>
+    <test name="example.tests" duration-ms="6352" started-at="2020-10-30T17:49:49Z" finished-at="2020-10-30T17:49:55Z">
+      <class name="com.example2.tests.MultipleBrowserTest">
+        <test-method status="PASS" signature="run_in_multiple_browsers(java.lang.String)[pri:0, instance:com.example2.tests.MultipleBrowserTest@4883b407]" name="run_in_multiple_browsers" duration-ms="9" started-at="2020-10-30T17:49:53Z" finished-at="2020-10-30T17:49:53Z">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run_in_multiple_browsers -->
+      </class> <!-- com.example2.tests.MultipleBrowserTest -->
+      <class name="com.example2.tests.FirstSeleniumTestNGTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.example2.tests.FirstSeleniumTestNGTest@5622fdf]" name="setUp" is-config="true" duration-ms="4105" started-at="2020-10-30T17:49:49Z" finished-at="2020-10-30T17:49:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test_google_dot_com()[pri:0, instance:com.example2.tests.FirstSeleniumTestNGTest@5622fdf]" name="test_google_dot_com" duration-ms="1529" started-at="2020-10-30T17:49:53Z" finished-at="2020-10-30T17:49:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_google_dot_com -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.example2.tests.FirstSeleniumTestNGTest@5622fdf]" name="tearDown" is-config="true" duration-ms="685" started-at="2020-10-30T17:49:55Z" finished-at="2020-10-30T17:49:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.example2.tests.FirstSeleniumTestNGTest -->
+    </test> <!-- example.tests -->
+    <test name="chrome-specific-tests" duration-ms="12" started-at="2020-10-30T17:49:55Z" finished-at="2020-10-30T17:49:55Z">
+      <class name="com.example2.tests.MultipleBrowserTest">
+        <test-method status="PASS" signature="run_in_multiple_browsers(java.lang.String)[pri:0, instance:com.example2.tests.MultipleBrowserTest@3fee9989]" name="run_in_multiple_browsers" duration-ms="3" started-at="2020-10-30T17:49:55Z" finished-at="2020-10-30T17:49:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run_in_multiple_browsers -->
+      </class> <!-- com.example2.tests.MultipleBrowserTest -->
+    </test> <!-- chrome-specific-tests -->
+    <test name="firefox-specific-tests" duration-ms="4" started-at="2020-10-30T17:49:55Z" finished-at="2020-10-30T17:49:55Z">
+      <class name="com.example2.tests.MultipleBrowserTest">
+        <test-method status="PASS" signature="run_in_multiple_browsers(java.lang.String)[pri:0, instance:com.example2.tests.MultipleBrowserTest@e45f292]" name="run_in_multiple_browsers" duration-ms="1" started-at="2020-10-30T17:49:55Z" finished-at="2020-10-30T17:49:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run_in_multiple_browsers -->
+      </class> <!-- com.example2.tests.MultipleBrowserTest -->
+    </test> <!-- firefox-specific-tests -->
+  </suite> <!-- First Suite -->
+</testng-results>
